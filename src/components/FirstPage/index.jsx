@@ -11,7 +11,7 @@ export default function FirstPage(){
                     <b>Objetivo:</b><br />
                     <LeftText>
                         Desenvolver sistemas back end e front end voltados para a web e 
-                        principalmente em javascript e python, mas posso utilizar 
+                        principalmente em javascript e PHP, mas posso utilizar 
                         outras tecnologias ou até trabalhar em outras àreas se necessário.
                     </LeftText>
 
@@ -49,6 +49,18 @@ export default function FirstPage(){
                     </Text>
                 </Language>
                 <Language>
+                    <LangIcon src='php.png'/>
+                    <Text>
+                        <div>
+                            <b>PHP</b>
+                            <p>Tive contato com php na faculdade e confesso que não me aprofundei muito na época mas
+                                recentemente tive que usar bastante o php para um projeto freela que participei e acho
+                                que posso me aprofundar mais nessa linguagem num futuro próximo.
+                            </p>
+                        </div>
+                    </Text>
+                </Language>
+                <Language>
                     <LangIcon src='pitao.png'/>
                     <Text>
                         <div>
@@ -65,16 +77,6 @@ export default function FirstPage(){
                             <b>MySQL</b>
                             <p>Eu não poderia me dizer programador sem saber mysql. É a linguagem de bd mais comum. 
                                 E sei o suficiente para trabalhar</p>
-                        </div>
-                    </Text>
-                </Language>
-                <Language>
-                    <LangIcon src='php.png'/>
-                    <Text>
-                        <div>
-                            <b>PHP</b>
-                            <p>Tive contato com php na faculdade e confesso que não me aprofundei muito mais do que me 
-                                era pedido na faculdade mas posso me aprofundar se for necessário.</p>
                         </div>
                     </Text>
                 </Language>

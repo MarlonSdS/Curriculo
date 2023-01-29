@@ -6,6 +6,15 @@ export default function SecondPage(){
         <Page>
             <Subtitulo>Experiências</Subtitulo>
             <Exp>
+                <ExpImg src="logo_gi.png"/>
+                <p>
+                    <b>Grupo Intra EAD (12/2022 - 01/2022)</b><br />
+                    Fiz um freela no projeto do site Ineves. O Ineves é um site de cursos online na área da 
+                    saúde, meu trabalho foi basicamente integrar um novo frontend num código legado pré-existente 
+                    e consertar alguns bugs. Foi utilizado principalmente PHP e um pouco de Javascript.
+                </p>
+            </Exp>
+            <Exp>
                 <ExpImg src="univs.png"/>
                 <p>
                     <b>Fábrica de software (08/2019 - 11/2021)</b><br />
@@ -66,9 +75,6 @@ export default function SecondPage(){
 
                 </p>
             </Exp>
-            <br />
-            <br />
-            <br />
             <br />
             <br />
             <br />
