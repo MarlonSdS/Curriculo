@@ -11,7 +11,7 @@ export default function FirstPage(){
                     <b>Objetivo:</b><br />
                     <LeftText>
                         Desenvolver sistemas back end e front end voltados para a web e 
-                        principalmente em javascript e PHP, mas posso utilizar 
+                        principalmente em Javascript e Python, mas posso utilizar 
                         outras tecnologias ou até trabalhar em outras àreas se necessário.
                     </LeftText>
 
@@ -39,24 +39,12 @@ export default function FirstPage(){
                 </ div>
                 <Tecnologo>Linguagens / Frameworks / Tecnologias</Tecnologo>
                 <Language>
-                    <LangIcon src='js.png'/>
+                    <LangIcon src='ts.png'/>
                     <Text>
                         <div>
-                            <b>Javascript / Node / React</b>
+                            <b>Typescript / Node / React / Vue</b>
                             <p>A stack que mais domino. Já fiz vários projetos com estas tecnologias e tenho dois 
-                                certificados, um de node e outro de react</p>
-                        </div>
-                    </Text>
-                </Language>
-                <Language>
-                    <LangIcon src='php.png'/>
-                    <Text>
-                        <div>
-                            <b>PHP</b>
-                            <p>Tive contato com php na faculdade e confesso que não me aprofundei muito na época mas
-                                recentemente tive que usar bastante o php para um projeto freela que participei e acho
-                                que posso me aprofundar mais nessa linguagem num futuro próximo.
-                            </p>
+                                certificados, um de node e outro de react, mas domino mais vue.</p>
                         </div>
                     </Text>
                 </Language>
@@ -65,8 +53,40 @@ export default function FirstPage(){
                     <Text>
                         <div>
                             <b>Python / Django</b>
-                            <p>Esta ainda estou estudando. Me interessei bastante pelo python e como tenho interesse mais em 
-                                desenvolvimento web estou estudando django.</p>
+                            <p>A linguagem que eu mais desejo me aprofundar. É muito prática e útil para fazer automação de tarefas.
+                                Fiz um curso de django e o utilizei um pouco no trabalho, é bem eficiente.
+                            </p>
+                        </div>
+                    </Text>
+                </Language>
+                <Language>
+                    <LangIcon src='cpp.png' />
+                    <Text>
+                        <b>C++</b>
+                        <p>Todo mundo deveria saber C++, é a mãe de muitas lingugens. Esta eu aprendi
+                            apenas por hobbie no meu tempo livre e confesso que não cheguei a usar em 
+                            projetos profissionais.
+                        </p>
+                    </Text>
+                </Language>
+                <Language>
+                    <LangIcon src='csharp.png' />
+                    <Text>
+                        <b>C#</b>
+                        <p>Linguagem que aprendi por causa de um dos meus trabalhos anteriores.
+                            É uma linguagem muito robusta e ótima para se trabalhar em projetos modernos.
+                        </p>
+                    </Text>
+                </Language>
+                <Language>
+                    <LangIcon src='php.png'/>
+                    <Text>
+                        <div>
+                            <b>PHP / Laravel</b>
+                            <p>Tive contato com php na faculdade e confesso que não me aprofundei muito na época mas
+                                ano passado tive que usar bastante o php para um projeto freela que participei e acho
+                                que posso me aprofundar mais nessa linguagem num futuro próximo.
+                            </p>
                         </div>
                     </Text>
                 </Language>

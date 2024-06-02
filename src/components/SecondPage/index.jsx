@@ -6,12 +6,31 @@ export default function SecondPage(){
         <Page>
             <Subtitulo>Experiências</Subtitulo>
             <Exp>
+                <ExpImg src="brasaoIcó.jpeg"/>
+                <p>
+                    <b>Prefeitura de Icó (01/2024 - 04/2024)</b><br />
+                    Fiz um bico trabalhando na análise e correção de problemas no banco de dados e
+                    na API dos sistemas da secretaria de saúde do município de Icó bem como a integração
+                    da API com o banco.
+                </p>
+            </Exp>
+            <Exp>
                 <ExpImg src="logo_gi.png"/>
                 <p>
-                    <b>Grupo Intra EAD (12/2022 - 01/2022)</b><br />
+                    <b>Grupo Intra EAD (08/2022 - 06/2023)</b><br />
                     Fiz um freela no projeto do site Ineves. O Ineves é um site de cursos online na área da 
                     saúde, meu trabalho foi basicamente integrar um novo frontend num código legado pré-existente 
                     e consertar alguns bugs. Foi utilizado principalmente PHP e um pouco de Javascript.
+                </p>
+            </Exp>
+            <Exp>
+                <ExpImg src="myfood.png"/>
+                <p>
+                    <b>MyFood Icó (02/2022 - 07/2022)</b><br />
+                    Meu primeiro trabalho "de verdade" foi numa empresa local daqui da cidade, o My food
+                    é um app de delivery de comida que atende Icó e região. Meu trabalho era ampliar
+                    o banco de dados do sistema numa época em que a empresa estava se expandindo para 
+                    cidades vizinhas. Utilizei principalmente MySql e C#.
                 </p>
             </Exp>
             <Exp>
@@ -38,13 +57,6 @@ export default function SecondPage(){
             </Exp>
             <Subtitulo>Escolaridade</Subtitulo>
             <Exp>
-                <ExpImg src="vivina.jpg"/>
-                <p>
-                    <b>Ensino Médio – E.E.M Vivina Monteiro</b><br />
-                    Período: 02/2016 - 12/2018
-                </p>
-            </Exp>
-            <Exp>
                 <ExpImg src="univs.png"/>
                 <p>
                     <b>Ensino Superior – Centro Universitário Vale do Salgado (Univs)</b><br />
@@ -54,7 +66,14 @@ export default function SecondPage(){
 
                 </p>
             </Exp>
-            <Subtitulo>Cursos</Subtitulo>
+            <Exp>
+                <ExpImg src="vivina.jpg"/>
+                <p>
+                    <b>Ensino Médio – E.E.M Vivina Monteiro</b><br />
+                    Período: 02/2016 - 12/2018
+                </p>
+            </Exp>
+            {/*<Subtitulo>Cursos</Subtitulo>
             <Exp>
                 <ExpImg src="udemy.jpg"/>
                 <p>
@@ -74,13 +93,14 @@ export default function SecondPage(){
 
 
                 </p>
-            </Exp>
+            </Exp>*/}
             <br />
             <br />
             <br />
             <br />
             <br />
-            <Subtitulo>Meu diploma e meus certificados podem ser vistos em meu portfólio linkado na área de informações de contato.</Subtitulo>
+            <br />
+            <Subtitulo >Meu diploma e meus certificados podem ser vistos em meu portfólio linkado na área de informações de contato.</Subtitulo>
         </Page>
     )
 }
